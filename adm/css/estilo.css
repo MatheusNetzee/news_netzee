@@ -1,0 +1,101 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+b{
+	color:#474747;
+	font-weight: bolder;
+
+}
+
+.principal {
+	text-align: center;
+}
+
+.clear{
+	clear:both;
+	content: '';
+}
+
+.titulo{
+	margin:auto;
+	font-size:35px;
+	text-align: center;
+	margin-bottom:30px
+}
+
+.titulo-sessao{
+
+	font-size:15px;
+	text-align:center;
+	margin:15px 0;
+}
+
+.login-box{
+	margin: 2.5% auto;
+	width: 360px;
+	
+}
+
+.login-main{
+	background-color:#;
+	padding:20px;
+	color:#474747;
+
+	box-shadow: 0.5px 2px 2px #7f7f7f;
+	border: 2px solid #474747;
+}
+
+.Ctext {
+	border: 1px solid #cecece;
+	outline: 0;
+	width: 100%;
+	color:#7f7f7f;
+	font-size:13px;
+	font-weight: bolder;
+	padding-left:10px;
+	height: 25px;
+	box-sizing: border-box;
+}
+
+.Ctext:focus{
+	border:1px solid #7f7f7f;
+	transition: 1s;
+}
+
+#Iemail{
+	background-image:url(../img/email.png);
+	background-position:97%, 50%;
+	background-size:15px;
+	background-repeat: no-repeat;
+}
+
+
+#Isenha{
+	background-image:url(../img/senha.png);
+	background-position:97%, 50%;
+	background-size:15px;
+	background-repeat: no-repeat;
+
+}
+
+
+.login-bottom .botao {
+	border:0;
+	outline:0;
+	background-color:#7f7f7f;
+	text-align: center;
+	color:#fff;
+	font-weight: bold;
+	padding:6px 12px;
+	cursor: pointer;
+	box-shadow: 0.3px 1px 2px #504c4c;
+/*	display: block;
+	width: 100%;*/
+}
+.login-bottom .botao:hover{
+	background-color:#504c4c;
+	transition: 0.5s;
+}
+
